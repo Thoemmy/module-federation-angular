@@ -1,0 +1,16 @@
+{
+  "/remotes/event": {
+    "target": "http://localhost:4201",
+    "secure": false,
+    "pathRewrite": {
+      "^/remotes/event": ""
+    }
+  },
+  "/remotes/app": {
+    "target": "http://localhost:4202",
+    "secure": false,
+    "pathRewrite": {
+      "^/remotes/app": ""
+    }
+  }
+}
